@@ -1,0 +1,37 @@
+---
+aliases: 
+tags: 
+sprite: "![[Ronove.png]]"
+cssclasses:
+  - center-headings
+---
+Ronove
+`=this.sprite`
+# Descriptions
+
+
+## Banquet
+### Tea Party
+#### 1
+One of the 72 Great Demons. Works for a Master in exchange for various forms of compensation. He currently has a contract with [[Beatrice]] as her butler (head furniture).
+
+He's become proficient at housekeeping after serving in many households, so his ability as a butler is very high.
+
+In the high society of witches, employing him has become a kind of status symbol. Furthermore, the cookies he bakes are superb, and witches will often form a line demanding them.
+
+He must possess tremendous magical power, but since he always stays out of the spotlight to further boost his Master's reputation, his combat capabilities are unknown.
+## Alliance
+### Tea Party
+#### 1
+One of the 72 Great Demons. Works for a Master in exchange for various forms of compensation. He currently has a contract with [[Beatrice]] as her butler (head furniture).
+
+He's become proficient at housekeeping after serving in many households, so his ability as a butler is very high.
+
+In the high society of witches, employing him has become a kind of status symbol. Furthermore, the cookies he bakes are superb, and witches will often form a line demanding them.
+
+He must possess tremendous magical power, but since he always stays out of the spotlight to further boost his Master's reputation, his combat capabilities are unknown.
+# Theories
+
+
+[[Genji#^71ff04 | Ronove = Genji hypothesis]]
+

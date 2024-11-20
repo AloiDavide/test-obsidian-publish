@@ -1,0 +1,67 @@
+---
+aliases:
+  - Ushiromiya Rudolf
+tags:
+  - ushiromiya
+sprite: "![[rudolf.png]]"
+cssclasses:
+  - center-headings
+---
+Ushiromiya Rudolph
+`=this.sprite`
+
+# Descriptions
+
+## Legend
+### Rokkenjima
+#### 1
+[[Kinzo]]’s third child.
+
+Along with his sister, [[Eva]], he intends to make his voice heard during the family conference to prevent their oldest sibling, [[Krauss]], from keeping all of their father’s wealth for himself.
+
+His former wife, [[Asumu]], passed away six years ago, and he married his current wife, [[Kyrie]], shortly after that.
+#### 2
+His corpse was found inside [[the rose garden storehouse]]. His face seems to have been smashed after death.
+
+He has a right to lament his ill fortune.
+## Turn
+### Rokkenjima
+#### 1
+[[Kinzo]]’s third child.
+
+Along with his sister, [[Eva]], he intends to make his voice heard during the family conference to prevent their oldest sibling, [[Krauss]], from keeping all of their father’s wealth for himself.
+
+His former wife, [[Asumu]], passed away six years ago, and he married his current wife, [[Kyrie]], shortly after that.
+#### 2
+His corpse was found in the [[Chapel]].  
+The direct cause of death is unknown, but it seems his stomach was cut open and his intestines pulled out after his death.  
+On top of that, sweets and candies were packed into his stomach.  
+
+This is why we want to be as sweet and innocent as candy.
+## Banquet
+### Rokkenjima
+#### 1
+[[Kinzo]]’s third child.
+
+Along with his sister, [[Eva]], he intends to make his voice heard during the family conference to prevent their oldest sibling, [[Krauss]], from keeping all of their father’s wealth for himself.
+
+His former wife, [[Asumu]], passed away six years ago, and he married his current wife, [[Kyrie]], shortly after that.
+#### 2
+Died in the [[hall]] of the mansion, with his forehead pierced by a [[The Seven Stakes of Purgatory|weapon shaped like a stake]].  
+
+Apparently, they've gotta be finished off with stakes from here on out. Gross.
+## Alliance
+### Rokkenjima
+#### 1
+[[Kinzo]]’s third child.
+
+Along with his sister, [[Eva]], he intends to make his voice heard during the family conference to prevent their oldest sibling, [[Krauss]], from keeping all of their father’s wealth for himself.
+
+His former wife, [[Asumu]], passed away six years ago, and he married his current wife, [[Kyrie]], shortly after that.
+#### 2
+His corpse was found in the [[dining hall]].  
+About half of his head was destroyed. It's probably reasonable to assume that he was murdered with a [[powerful gun]] or something similar.  
+
+However, the witnesses don't believe he was killed with a gun...
+# Theories
+#### 1

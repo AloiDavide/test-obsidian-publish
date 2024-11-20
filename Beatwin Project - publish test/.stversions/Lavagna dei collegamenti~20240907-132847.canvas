@@ -1,0 +1,730 @@
+{
+  "nodes": [
+    {
+      "id": "5be626fda7c746ff",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 160,
+      "y": -80,
+      "width": 5080,
+      "height": 2937,
+      "label": "Witch Titles"
+    },
+    {
+      "id": "7b18253da5b1a808",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -3040,
+      "y": 200,
+      "width": 2760,
+      "height": 2000,
+      "label": "Cast"
+    },
+    {
+      "id": "348d6e6b03abba60",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -4200,
+      "y": -480,
+      "width": 1080,
+      "height": 1480,
+      "color": "1",
+      "label": "Witch's game"
+    },
+    {
+      "id": "b3212dce36403a58",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -4200,
+      "y": 1200,
+      "width": 1080,
+      "height": 1000,
+      "color": "2",
+      "label": "Episodes"
+    },
+    {
+      "id": "2de95b023cc6a2e8",
+      "type": "file",
+      "file": "Attachments/All conneted.png",
+      "styleAttributes": {},
+      "x": -2980,
+      "y": -500,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "31537718f66e593d",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# Furniture\n```dataview\nTABLE\nsprite\nFROM \"Characters\" AND #furniture\n```",
+      "styleAttributes": {},
+      "x": -1740,
+      "y": 1440,
+      "width": 570,
+      "height": 697
+    },
+    {
+      "id": "03d9d1007d318b6c",
+      "type": "file",
+      "file": "Checklist.md",
+      "styleAttributes": {},
+      "x": -2072,
+      "y": -490,
+      "width": 720,
+      "height": 580
+    },
+    {
+      "id": "094491bb1a9da5ba",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# Ushiromiya\n```dataview\nTABLE\nsprite\nFROM \"Characters\" AND #ushiromiya \n```",
+      "styleAttributes": {},
+      "x": -1095,
+      "y": 220,
+      "width": 717,
+      "height": 1187
+    },
+    {
+      "id": "d28594eaad15c7bc",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# Characters\n```dataview\nTABLE\nsprite\nFROM \"Characters\"\n```",
+      "styleAttributes": {},
+      "x": -2320,
+      "y": 233,
+      "width": 968,
+      "height": 967
+    },
+    {
+      "id": "3fe8e3589b2ba8b3",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# Witches\n```dataview\nTABLE\nsprite\nFROM \"Characters\" AND #witch\n```",
+      "styleAttributes": {},
+      "x": -2462,
+      "y": 1407,
+      "width": 684,
+      "height": 730
+    },
+    {
+      "id": "c29a71ce8bfbe084",
+      "type": "text",
+      "text": "# Characters by type\n```dataview\nTABLE without id\nupper(tags) AS Type,\nlength(rows.file.link) as Count,\nrows.file.link as Characters\nFROM \"Characters\"\nFLATTEN tags\nGROUP BY tags\n```",
+      "styleAttributes": {},
+      "x": -2980,
+      "y": 1060,
+      "width": 420,
+      "height": 994
+    },
+    {
+      "id": "d21fb231d4f77de9",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# Other\n```dataview\nTABLE\nsprite\nFROM \"Characters\" AND #other\n```\n",
+      "styleAttributes": {},
+      "x": -2980,
+      "y": 320,
+      "width": 458,
+      "height": 640
+    },
+    {
+      "id": "fe76ec41cfe69df1",
+      "type": "file",
+      "file": "HUD.md",
+      "styleAttributes": {},
+      "x": -1170,
+      "y": -480,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "ef73405ce7d42f79",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# Servants\n```dataview\nTABLE\nsprite\nFROM \"Characters\" AND #servant\n```",
+      "styleAttributes": {},
+      "x": -1000,
+      "y": 1440,
+      "width": 660,
+      "height": 564
+    },
+    {
+      "id": "782b88e054a94bab",
+      "type": "file",
+      "file": "Endless Witch.md",
+      "styleAttributes": {},
+      "x": 1760,
+      "y": 1549,
+      "width": 400,
+      "height": 415
+    },
+    {
+      "id": "63cac1557e136efb",
+      "type": "file",
+      "file": "Beatrice's Titles.md",
+      "styleAttributes": {},
+      "x": 1080,
+      "y": 1554,
+      "width": 400,
+      "height": 400,
+      "color": "#3700ff"
+    },
+    {
+      "id": "81e7b2ad0910978f",
+      "type": "file",
+      "file": "Characters/Beatrice.md",
+      "styleAttributes": {},
+      "x": 1080,
+      "y": 874,
+      "width": 400,
+      "height": 320
+    },
+    {
+      "id": "c71c3c18af4bc554",
+      "type": "file",
+      "file": "Characters/EVA Beatrice.md",
+      "styleAttributes": {},
+      "x": 1760,
+      "y": 874,
+      "width": 400,
+      "height": 320
+    },
+    {
+      "id": "04153fcd19d171bf",
+      "type": "file",
+      "file": "Titles/Witch of Resurrection.md",
+      "styleAttributes": {},
+      "x": 2440,
+      "y": 351,
+      "width": 400,
+      "height": 263
+    },
+    {
+      "id": "c16aa7272e9ee0a5",
+      "type": "file",
+      "file": "Grimoires.md",
+      "styleAttributes": {},
+      "x": 3280,
+      "y": 40,
+      "width": 400,
+      "height": 400,
+      "color": "8"
+    },
+    {
+      "id": "022aad3ac261fcba",
+      "type": "file",
+      "file": "Characters/Ange.md",
+      "styleAttributes": {},
+      "x": 2440,
+      "y": 854,
+      "width": 400,
+      "height": 360
+    },
+    {
+      "id": "fcbf3cdc770ab055",
+      "type": "file",
+      "file": "Titles/Witch of the Fragments.md",
+      "styleAttributes": {},
+      "x": 3600,
+      "y": 2094,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "6ded5ec24f9cfeec",
+      "type": "file",
+      "file": "Characters/Bernkastel.md",
+      "styleAttributes": {},
+      "x": 3880,
+      "y": 1464,
+      "width": 400,
+      "height": 320
+    },
+    {
+      "id": "003e1106c9229a55",
+      "type": "file",
+      "file": "Characters/Kinzo.md",
+      "styleAttributes": {},
+      "x": 360,
+      "y": 140,
+      "width": 400,
+      "height": 363
+    },
+    {
+      "id": "1a2bf875cba0548d",
+      "type": "file",
+      "file": "Characters/Virgilia.md",
+      "styleAttributes": {},
+      "x": 360,
+      "y": 874,
+      "width": 400,
+      "height": 320
+    },
+    {
+      "id": "b12eb9cc0833aa10",
+      "type": "file",
+      "file": "Golden Witch.md",
+      "styleAttributes": {},
+      "x": 360,
+      "y": 1554,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "a89a05d73781281a",
+      "type": "file",
+      "file": "Characters/Maria.md",
+      "styleAttributes": {},
+      "x": 4640,
+      "y": 1782,
+      "width": 400,
+      "height": 364
+    },
+    {
+      "id": "7a89689d1f9d7929",
+      "type": "file",
+      "file": "Characters/Lambdadelta.md",
+      "styleAttributes": {},
+      "x": 3080,
+      "y": 1464,
+      "width": 400,
+      "height": 294
+    },
+    {
+      "id": "222127cd3e761dbb",
+      "type": "file",
+      "file": "Titles/Witch of Miracles.md",
+      "styleAttributes": {},
+      "x": 4160,
+      "y": 2094,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "326715b633b37bec",
+      "type": "file",
+      "file": "Regarding the Succession of Witches.md",
+      "styleAttributes": {},
+      "x": 2440,
+      "y": 1544,
+      "width": 400,
+      "height": 420,
+      "color": "8"
+    },
+    {
+      "id": "c80ba6f6ce820e89",
+      "type": "file",
+      "file": "Titles/Witch of Certainty.md",
+      "styleAttributes": {},
+      "x": 3080,
+      "y": 2094,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "1bb41442ae151e8c",
+      "type": "file",
+      "file": "Endless Realization.md",
+      "styleAttributes": {},
+      "x": 1080,
+      "y": 2294,
+      "width": 400,
+      "height": 346
+    },
+    {
+      "id": "ff5c160b58ec27e6",
+      "type": "file",
+      "file": "Magical Compendiums.md",
+      "styleAttributes": {},
+      "x": 4000,
+      "y": 40,
+      "width": 400,
+      "height": 400,
+      "color": "8"
+    },
+    {
+      "id": "c2ddcd99db71afa4",
+      "type": "file",
+      "file": "Alliance of the Golden witch.md",
+      "styleAttributes": {},
+      "x": -3645,
+      "y": 1729,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "ff46583b690c81a5",
+      "type": "file",
+      "file": "Turn of the Golden witch.md",
+      "styleAttributes": {},
+      "x": -3645,
+      "y": 1280,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "667125ca4ad8fb2f",
+      "type": "file",
+      "file": "Legend of the Golden witch.md",
+      "styleAttributes": {},
+      "x": -4115,
+      "y": 1280,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "6f782a03e485b79b",
+      "type": "file",
+      "file": "Banquet of the Golden witch.md",
+      "styleAttributes": {},
+      "x": -4115,
+      "y": 1729,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "a7a8b15a9f35be3a",
+      "type": "file",
+      "file": "Titles/Kinzo's Magical Compendium.md",
+      "styleAttributes": {},
+      "x": 1080,
+      "y": 161,
+      "width": 400,
+      "height": 321
+    },
+    {
+      "id": "8c918a866fe6ada6",
+      "type": "file",
+      "file": "Regarding Voyagers.md",
+      "styleAttributes": {},
+      "x": 3560,
+      "y": 724,
+      "width": 400,
+      "height": 400,
+      "color": "8"
+    },
+    {
+      "id": "90ce775b0daf8772",
+      "type": "file",
+      "file": "Regarding Creators.md",
+      "styleAttributes": {},
+      "x": 4640,
+      "y": 724,
+      "width": 400,
+      "height": 400,
+      "color": "8"
+    },
+    {
+      "id": "5405da6fac2faae1",
+      "type": "file",
+      "file": "Titles/Witch of Origins.md",
+      "styleAttributes": {},
+      "x": 4640,
+      "y": 1294,
+      "width": 400,
+      "height": 340
+    },
+    {
+      "id": "d9af12e5c42375b5",
+      "type": "file",
+      "file": "The Portrait Epitaph.md",
+      "styleAttributes": {},
+      "x": -4125,
+      "y": 120,
+      "width": 955,
+      "height": 840,
+      "color": "8"
+    },
+    {
+      "id": "f24360e0dfec1d80",
+      "type": "text",
+      "text": "---\ncssclasses:\n - cards\n - center-headings\n---\n# The Witch's Game Records\n```dataview\nTABLE\nFROM \"\"\nwhere contains(file.name, \"Record of\")\n```\n",
+      "styleAttributes": {},
+      "x": -3922,
+      "y": -400,
+      "width": 550,
+      "height": 440
+    }
+  ],
+  "edges": [
+    {
+      "id": "deef7c6caf1446ef",
+      "styleAttributes": {},
+      "fromNode": "d28594eaad15c7bc",
+      "fromSide": "bottom",
+      "toNode": "31537718f66e593d",
+      "toSide": "top"
+    },
+    {
+      "id": "98992aebb78960ad",
+      "styleAttributes": {},
+      "fromNode": "d28594eaad15c7bc",
+      "fromSide": "left",
+      "toNode": "d21fb231d4f77de9",
+      "toSide": "right"
+    },
+    {
+      "id": "d0ebf9800149de9b",
+      "styleAttributes": {},
+      "fromNode": "d28594eaad15c7bc",
+      "fromSide": "bottom",
+      "toNode": "3fe8e3589b2ba8b3",
+      "toSide": "top"
+    },
+    {
+      "id": "85cb7224612a070a",
+      "styleAttributes": {},
+      "fromNode": "d28594eaad15c7bc",
+      "fromSide": "right",
+      "toNode": "ef73405ce7d42f79",
+      "toSide": "left"
+    },
+    {
+      "id": "7dff6db01485eb1d",
+      "styleAttributes": {},
+      "fromNode": "d28594eaad15c7bc",
+      "fromSide": "right",
+      "toNode": "094491bb1a9da5ba",
+      "toSide": "left"
+    },
+    {
+      "id": "fb6ba8c9b6508aff",
+      "styleAttributes": {},
+      "fromNode": "81e7b2ad0910978f",
+      "fromSide": "bottom",
+      "toNode": "b12eb9cc0833aa10",
+      "toSide": "top",
+      "label": "Human label"
+    },
+    {
+      "id": "ba7ed8023db08d8a",
+      "styleAttributes": {},
+      "fromNode": "81e7b2ad0910978f",
+      "fromSide": "bottom",
+      "toNode": "782b88e054a94bab",
+      "toSide": "top",
+      "label": "Meta label"
+    },
+    {
+      "id": "bae021ff25bf32d2",
+      "styleAttributes": {},
+      "fromNode": "782b88e054a94bab",
+      "fromSide": "right",
+      "toNode": "326715b633b37bec",
+      "toSide": "left",
+      "toEnd": "none",
+      "label": "inherited"
+    },
+    {
+      "id": "d1ded1f11834accf",
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "63cac1557e136efb",
+      "fromSide": "left",
+      "toNode": "b12eb9cc0833aa10",
+      "toSide": "right",
+      "toEnd": "none"
+    },
+    {
+      "id": "4a4ca49eae19067a",
+      "styleAttributes": {
+        "path": "short-dashed",
+        "arrow": "circle-outline"
+      },
+      "fromNode": "63cac1557e136efb",
+      "fromSide": "right",
+      "toNode": "782b88e054a94bab",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "5a68edb1e5515a27",
+      "styleAttributes": {
+        "path": "short-dashed"
+      },
+      "fromNode": "63cac1557e136efb",
+      "fromSide": "bottom",
+      "toNode": "1bb41442ae151e8c",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "351ccb63333f240e",
+      "styleAttributes": {},
+      "fromNode": "b12eb9cc0833aa10",
+      "fromSide": "bottom",
+      "toNode": "1bb41442ae151e8c",
+      "toSide": "left"
+    },
+    {
+      "id": "702598a31116d5c9",
+      "styleAttributes": {},
+      "fromNode": "782b88e054a94bab",
+      "fromSide": "bottom",
+      "toNode": "1bb41442ae151e8c",
+      "toSide": "right"
+    },
+    {
+      "id": "f55f0e875cb5bff1",
+      "styleAttributes": {},
+      "fromNode": "c71c3c18af4bc554",
+      "fromSide": "bottom",
+      "toNode": "782b88e054a94bab",
+      "toSide": "top"
+    },
+    {
+      "id": "626bd4e50e6e573e",
+      "styleAttributes": {},
+      "fromNode": "003e1106c9229a55",
+      "fromSide": "right",
+      "toNode": "a7a8b15a9f35be3a",
+      "toSide": "left"
+    },
+    {
+      "id": "b8edc3dad50004aa",
+      "styleAttributes": {},
+      "fromNode": "7a89689d1f9d7929",
+      "fromSide": "bottom",
+      "toNode": "c80ba6f6ce820e89",
+      "toSide": "top"
+    },
+    {
+      "id": "b1308f92b6aa3600",
+      "styleAttributes": {},
+      "fromNode": "8c918a866fe6ada6",
+      "fromSide": "bottom",
+      "toNode": "6ded5ec24f9cfeec",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "3808226e7562c4dd",
+      "styleAttributes": {},
+      "fromNode": "8c918a866fe6ada6",
+      "fromSide": "bottom",
+      "toNode": "7a89689d1f9d7929",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "c0180088c37dbee0",
+      "styleAttributes": {},
+      "fromNode": "a89a05d73781281a",
+      "fromSide": "top",
+      "toNode": "5405da6fac2faae1",
+      "toSide": "bottom"
+    },
+    {
+      "id": "fc9da81a6a3bc3c2",
+      "styleAttributes": {},
+      "fromNode": "5405da6fac2faae1",
+      "fromSide": "top",
+      "toNode": "90ce775b0daf8772",
+      "toSide": "bottom",
+      "label": "close to"
+    },
+    {
+      "id": "73d5bfda4188d2a3",
+      "styleAttributes": {},
+      "fromNode": "6ded5ec24f9cfeec",
+      "fromSide": "bottom",
+      "toNode": "fcbf3cdc770ab055",
+      "toSide": "top",
+      "label": "Legend tea party"
+    },
+    {
+      "id": "4945db5b1d211b19",
+      "styleAttributes": {},
+      "fromNode": "6ded5ec24f9cfeec",
+      "fromSide": "bottom",
+      "toNode": "222127cd3e761dbb",
+      "toSide": "top",
+      "label": "All others"
+    },
+    {
+      "id": "29a010f8158292a2",
+      "styleAttributes": {},
+      "fromNode": "81e7b2ad0910978f",
+      "fromSide": "top",
+      "toNode": "a7a8b15a9f35be3a",
+      "toSide": "bottom",
+      "label": "Influenced by"
+    },
+    {
+      "id": "3e9b6e663c7ef46b",
+      "styleAttributes": {},
+      "fromNode": "1a2bf875cba0548d",
+      "fromSide": "right",
+      "toNode": "81e7b2ad0910978f",
+      "toSide": "left",
+      "label": "succession"
+    },
+    {
+      "id": "4fecfdc0330a203c",
+      "styleAttributes": {},
+      "fromNode": "81e7b2ad0910978f",
+      "fromSide": "right",
+      "toNode": "c71c3c18af4bc554",
+      "toSide": "left",
+      "label": "succession"
+    },
+    {
+      "id": "33431a880cf0f435",
+      "styleAttributes": {
+        "path": null
+      },
+      "fromNode": "c71c3c18af4bc554",
+      "fromSide": "right",
+      "toNode": "022aad3ac261fcba",
+      "toSide": "left",
+      "label": "succession"
+    },
+    {
+      "id": "861032aa1b990c97",
+      "styleAttributes": {},
+      "fromNode": "8c918a866fe6ada6",
+      "fromSide": "right",
+      "toNode": "90ce775b0daf8772",
+      "toSide": "left",
+      "label": "can become"
+    },
+    {
+      "id": "860105acf853e6f0",
+      "styleAttributes": {},
+      "fromNode": "022aad3ac261fcba",
+      "fromSide": "bottom",
+      "toNode": "782b88e054a94bab",
+      "toSide": "top"
+    },
+    {
+      "id": "645ff72d21734b53",
+      "styleAttributes": {},
+      "fromNode": "1a2bf875cba0548d",
+      "fromSide": "bottom",
+      "toNode": "782b88e054a94bab",
+      "toSide": "top"
+    },
+    {
+      "id": "b364c8b28a2fe043",
+      "styleAttributes": {},
+      "fromNode": "782b88e054a94bab",
+      "fromSide": "bottom",
+      "toNode": "c80ba6f6ce820e89",
+      "toSide": "left",
+      "label": "bad matchup"
+    },
+    {
+      "id": "6641904ceee9a2db",
+      "styleAttributes": {},
+      "fromNode": "c16aa7272e9ee0a5",
+      "fromSide": "right",
+      "toNode": "ff5c160b58ec27e6",
+      "toSide": "left",
+      "label": "describe"
+    },
+    {
+      "id": "a2548645f5eaf9c0",
+      "styleAttributes": {},
+      "fromNode": "022aad3ac261fcba",
+      "fromSide": "top",
+      "toNode": "04153fcd19d171bf",
+      "toSide": "bottom"
+    }
+  ],
+  "metadata": {}
+}

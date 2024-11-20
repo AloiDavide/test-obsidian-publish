@@ -1,0 +1,2 @@
+
+Hard workers are rewarded

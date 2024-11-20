@@ -1,0 +1,4 @@
+- [[Record of Legend of the Golden witch]]
+- [[Record of Turn of the Golden Witch]]
+- [[Record of Banquet of the Golden Witch]]
+- [[Record of Alliance of the Golden Witch]]
